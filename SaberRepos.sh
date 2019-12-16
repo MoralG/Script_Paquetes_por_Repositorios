@@ -1,5 +1,3 @@
-:::bash
-
 #! bin/sh
 
 #seleccionamos los paquetes instalados y se lo pasamos al siguiente bucle
