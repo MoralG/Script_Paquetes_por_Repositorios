@@ -1,4 +1,4 @@
-#! bin/sh
+#! /bin/sh
 
 #seleccionamos los paquetes instalados y se lo pasamos al siguiente bucle
 for paquete in $(dpkg -l | grep '^ii' | cut -d " " -f 3)
